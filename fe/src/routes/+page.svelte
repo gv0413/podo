@@ -1,3 +1,18 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import "@adorable.css"
+  import PodoItem from "src/component/podoItem.svelte";
+</script>
+
+<h1 class="hbox pack bold mt(30) mb(30) font(30)">포도스티커🍇</h1>
+<div class="hbox pack">
+  <PodoItem />
+  <PodoItem />
+  <PodoItem />
+</div>
+<div class="hbox pack">
+  <PodoItem />
+  <PodoItem />
+</div>
+<div class="hbox pack">
+  <PodoItem />
+</div>
